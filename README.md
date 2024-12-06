@@ -2,3 +2,5 @@
 ```
 [a-zA-Z0-9_\-/]+\.(png|jpg|gif|ico|ttf|css)
 ```
+공백제거
+^\r\n
