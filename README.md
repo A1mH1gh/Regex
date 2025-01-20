@@ -23,3 +23,9 @@ websquare
 ```
 [a-zA-Z0-9_\-/]+\.(png|jpg|gif|ico|ttf|css)
 ```
+
+# 개발자도구
+특정 확장자 제외
+```
+/^(?!.*\.(png|jpg|gif|svg|ico|css|woff|js)).*$/
+```
