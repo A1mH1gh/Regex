@@ -19,8 +19,13 @@ websquare
 
 # XSS
 ```
-innerHTML
+innerHTML()
 /^javascript:(?!void\b).*/i
+write()
+outerHTML()
+insertAdjacentHTML()
+setAttrivute() //document.getElementById("target").setAttribute("onmouseover", "alert('XSS!')");
+eval()
 ```
 
 # 기타
