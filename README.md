@@ -26,6 +26,7 @@ outerHTML()
 insertAdjacentHTML()
 setAttrivute() //document.getElementById("target").setAttribute("onmouseover", "alert('XSS!')");
 eval()
+javascript:\s*[a-zA-Z_]+\([^()]+\)
 ```
 
 # 기타
