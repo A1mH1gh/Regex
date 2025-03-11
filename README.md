@@ -1,7 +1,7 @@
 # 업로드/다운로드 관련 키워드
 다음은 upload, down, type="file", enctype="multipart", type:"file문자열을 포함하는 정규식입니다. 이 정규식은 대소문자를 구분하지 않고, 이 네 가지 키워드가 HTML 코드나 텍스트에서 등장하는지를 검사합니다
 ```
-(?i)(upload|down|type=\s["']file["']|type:\s["']file["']|enctype=["']multipart[^"']*["'])
+upload|down|type=\s["']file["']|type:\s["']file["']|enctype=["']multipart[^"']*["']
 ```
 
 # Hidden 찾기 관련 키워드
