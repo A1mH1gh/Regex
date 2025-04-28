@@ -51,6 +51,9 @@ javascript:\s*[a-zA-Z_]+\([^()]+\)
 "\/[^"]+
 ```
 
+(?<=name=")[^"]+
+<input type="hidden" id="MsgId" name="MsgId" value="" />
+MsgID
 
 # 개발자도구
 특정 확장자 제외
